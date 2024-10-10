@@ -1,0 +1,2 @@
+# Smart-Waste-Classifier-for-Germany-s-Recycling-System-using-Neural-Networks
+This project uses a neural network to classify waste into 9 categories, including household waste, electronics, clothing, glass, plastics, paper, organic waste, batteries, and hazardous materials. It helps users identify the correct bin or disposal method, promoting proper recycling and sustainability in Germany through accurate waste sorting.
