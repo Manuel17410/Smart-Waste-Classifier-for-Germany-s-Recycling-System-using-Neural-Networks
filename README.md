@@ -19,4 +19,22 @@ I was struggling to run the dataset at the beginning for two reasons:
  * I kept on getting an UTF-8 error since the original names of the pictures contained Non-ASCII characters.
 The first problem was solved by coding an identifier that found these corrupted pictures and then deleted them, and the second issue was solved by another piece of code that renames all the pictures by consecutive numbers
 
+## Data Import
+
+The dataset was imported according to the right format for Neural Networks, which means, that the pictures are organized into batches. The data had to be normalized as well.
+
+## Model Building
+
+Three models were built, but I will only go deep into the one that gave the best results.
+The arquitecture of this Neural Network can be explained as follow:
+
+* Convolutional Layers:
+
+The first layer applies 16 filters (3x3) with ReLU activation and 'same' padding to maintain the input dimensions (256x256x3).
+This is followed by a max pooling layer that reduces the spatial size.
+The second and third convolutional layers use 32 and 64 filters, respectively, enhancing feature extraction.
+
+* Flattening: The output is flattened into a 1D vector for input into the dense layers.
+
+* Dense Layers: A dense layer with 256 neurons processes the features, followed by an output layer with 9 neurons and a softmax activation function for multi-class classification. This architecture efficiently learns and classifies images into nine categories.
 
