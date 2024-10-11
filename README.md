@@ -23,6 +23,8 @@ The first problem was solved by coding an identifier that found these corrupted 
 
 The dataset was imported according to the right format for Neural Networks, which means, that the pictures are organized into batches. The data had to be normalized as well.
 
+![Example Image](images/dataimport.png)
+
 ## Model Building and Training
 
 Three models were built, but I will only go deep into the one that gave the best results.
