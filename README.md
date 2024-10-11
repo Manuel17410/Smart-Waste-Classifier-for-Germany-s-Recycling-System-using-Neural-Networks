@@ -38,17 +38,17 @@ After training this model I got the following accuracy and loss function values:
 
 Accuracy:
 
- * Training accuracy improves significantly, starting from 14.7% in Epoch 1 and reaching 99.3% by Epoch 20.
- * Validation accuracy also increases from 38.1% in Epoch 1, peaking at 76% in Epoch 18, before slightly decreasing to 69.7% by Epoch 20.
+ * Training accuracy improves significantly, starting from 15.7% in Epoch 1 and reaching 99.3% by Epoch 20.
+ * Validation accuracy also increases from 32.3% in Epoch 1, peaking at 80,2% in Epoch 20, , showing the model generalizes well on unseen data.
 
 Loss:
 
-* Training loss consistently decreases, indicating that the model is learning well, starting at 3.08 and reducing to 0.026 by Epoch 20.
-* Validation loss fluctuates, decreasing at first but increasing after Epoch 8, suggesting some potential overfitting. It starts at 1.98, reaches a low of 1.31 in Epoch 14, and ends at 1.65 in Epoch 20.
+* Training loss consistently decreases, indicating that the model is learning well, starting at 2.75 and reducing to 0.018 by Epoch 20.
+* Validation loss decreases overall, although there are some fluctuations (starting at 2.07, peaking around 1.5162, and ending at 1.34577). These fluctuations can indicate some overfitting in the middle epochs but suggest eventual improvement.
 
 ## Plot Performance
 
 
-## Testing
+## Testing and Results
 
-The model was evaluated using a dataset consisting of 20 images from each of the nine categories. The results demonstrated strong classification performance, with accuracy ranging from 16 out of 20 to a perfect score of 20 out of 20 in four of the categories.
+The initial model demonstrated strong performance, achieving a precision of 0.9667, a recall of 1.0000, and an accuracy of 0.7812. Testing the model further confirmed its effectiveness, yielding an accuracy of approximately 85,6%. (Testing was made in 20 pictures of each category)
