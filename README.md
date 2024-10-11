@@ -50,9 +50,9 @@ Loss:
 
 ## Plot Performance
 
-![Example Image](images/accuracy.png)
+![Example Image](images/accccc.png)
 
-![Example Image](images/Loss.png)
+![Example Image](images/Losss.png)
 
 
 ## Testing and Results
